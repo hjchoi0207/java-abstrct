@@ -1,7 +1,7 @@
 ## abstrct Class
 
 
-```
+```java
 public abstract class Bank {
 	String name;
 	String account;
@@ -44,7 +44,7 @@ public abstract class Bank {
 
 ***
 
-```
+```java
 public class MyBank extends Bank{
 	
 	public MyBank(String name,String account,int total) {
@@ -68,7 +68,7 @@ public class MyBank extends Bank{
 
 ***
 
-```
+```java
 public class MainClass {
 
 	public static void main(String[] args) {
